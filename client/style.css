@@ -1,0 +1,277 @@
+@media only screen and (min-width: 1024px){
+    
+    #app-view {
+        width: 80%;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px){
+    
+    #app-view {
+        width: 90%;
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+    
+    #app-view {
+        width: 100%;
+    }
+    
+}
+
+/*
+==========================================================================================
+                                            GENERAL
+==========================================================================================
+*/
+
+
+#app-view{
+    padding: 0;
+    margin: 0 auto;
+}
+
+.content {
+    height: 90vh;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+#app-menu {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+
+.menu-item {
+    display: inline-block;
+    list-style: none;
+    float: left;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(0, 52, 195);
+    padding: 0%;
+    font-size: 120%;
+    font: sans-serif;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+    padding: 50% auto;
+}
+
+.menu-item:hover {
+    background-color: rgb(54, 93, 199);
+}
+
+.menu-item:hover a{
+    color: #fdfd96;
+}
+
+.menu-item img{
+    width: 5%;
+    padding: 2% 0;
+    height: auto;
+    filter: invert(100);
+    vertical-align: middle;
+}
+
+.page-control {
+    position: absolute;
+    bottom: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(0, 52, 195);
+    text-align: center;
+}
+
+.content {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+/*
+==========================================================================================
+                                            INDEX
+==========================================================================================
+*/
+
+
+.room-list {
+    padding: 0;
+    margin: 0;
+    height: 92%;
+    overflow-y: scroll;
+}
+.room-list li {
+    list-style: none;
+    background-color: #dddddd;
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 120%;
+}
+
+.room-list li:hover {
+    background-color: #b2b2b2;
+}
+
+.room-list a{
+    text-decoration: none;
+    color: black;
+}
+
+.room-list img {
+    border-radius: 50%;
+    width: 3%;
+    height: auto;
+    padding: 1.5%;
+    vertical-align: middle;
+
+}
+
+.page-control input {
+    padding: 0.4% 0.4%;
+    margin: 1% 0;
+}
+
+.page-control button {
+    padding: 0.6% 0.6%;
+    margin: 1% 0;
+    font-size: 110%;
+}
+
+
+
+
+
+
+/*
+==========================================================================================
+                                            CHAT
+==========================================================================================
+*/
+
+
+
+.room-name {
+    font: sans-serif;
+    font-weight: bold;
+    font-size: 140%;
+    padding: 1%;
+    margin: 0;
+    border-bottom: solid black 1px;
+}
+
+.message-list {
+    background-color: #ededed;
+    font-size: 140%;
+    min-height: 80%;
+    max-height: 83%;
+    overflow-y: scroll;
+    
+}
+
+.message {
+    display:inline-block;
+    box-sizing: border-box;
+    width: 80%;
+    border: 1px solid black ;
+    border-radius: 50px;
+    padding: 0.5%;
+    padding-left: 2%;
+    margin: 1%;
+    background-color: #87c4ff;
+    font: sans-serif;
+    border-bottom-left-radius: 0px;
+}
+
+.my-message {
+    float: right;
+    background-color:#0d57ff;
+    color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 0px;
+}
+
+.message-user {
+    display: block;
+    font-weight: bold;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 94%;
+    float: left;
+    margin: 0.5%;
+    margin-right: 0;
+    font-size: 140%;
+    padding: 1% 0.5% 0 0.5%;
+}
+
+
+
+
+
+/*
+==========================================================================================
+                                            PROFILE
+==========================================================================================
+*/
+
+
+.profile-form {
+    padding: 0;
+    margin: 0;
+    height: inherit;
+}
+
+.form-field {
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2% 0 2% 2%;
+    font-size: 120%;
+}
+
+.form-field label {
+    box-sizing: border-box;
+    width: 10%;
+    padding-right: 0%;
+    display: inline-block;
+}
+
+.form-field img {
+    display: inline-block;
+    width: 2%;
+    vertical-align: middle;
+    padding-left: 0;
+    padding-right: 1%;
+    margin-left: 0;
+}
+
+.form-field input {
+    padding: 0.5%;
+    box-sizing: border-box;
+    width: 20%;
+}
+
+
